@@ -26,9 +26,6 @@
   }
 /* Write all your code below this line */
 /* START YOUR CSS HERE */
-img {
-  width: 500px;
-}
 body {
   font-family: sans-serif;
 }
@@ -42,6 +39,89 @@ body {
 }
 #welcomeMessage {
   margin-top: 50px;
+}
+#welcomeMessage h1, h2 {
   text-align: center;
   font-size: 2.5em
+}
+#welcomeMessage h2 {
+  margin-bottom: 10px;
+}
+#favoriteFoodList {
+  text-align: center;
+  border: 2px, #111;
+  border-style: solid;
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style-position: inside;
+  padding: 20px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+}
+.articles {
+  margin: 50px;
+  border: 2px, #111;
+  border-style: solid;
+}
+.articles h1 {
+  color: white;
+  background-color: #111;
+  padding: 15px;
+  font-size: 36px;
+}
+.articles p :not(aside) {
+  font-style: bold;
+}
+aside p {
+  color: dodgerblue;
+  font-style: italic;
+}
+figure img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.articles figcaption {
+  font-style: bold, italic;
+}
+.artcles aside {
+  color: #3b3b3b;
+}
+.mainFooter {
+  background-color: #111;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+}
+.mainFooter p {
+  width: 200px;
+  float: left;
+  padding-left: 50px;
+  font-style: bold;
+}
+/*Question 37 mentions an ID that does not exist that I am not asked to create*/
+.mainFooter a {
+  text-decoration: none;
+  color: dodgerblue;
+  text-align: right;
+}
+.articles h2, h3, h4, a {
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+}
+ul {
+  list-style-position: inside;
+  text-align: center;
+  color: white;
+  background-color: #111;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.articles iframe {
+  width: 100%;
+  height: 400px;
 }
